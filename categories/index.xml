@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ICASSP 2026: Automatic Song Aesthetics Evaluation Challenge</title>
-    <link>https://ASLP-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/categories/</link>
+    <link>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/categories/</link>
     <description>Recent content in Categories on ICASSP 2026: Automatic Song Aesthetics Evaluation Challenge</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ASLP-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

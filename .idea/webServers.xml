@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d44f0dc3-fd86-4050-9e13-bf37802eb50c" name="ssh.esat.kuleuven.be" url="http://ssh.esat.kuleuven.be">
+        <fileTransfer host="ssh.esat.kuleuven.be" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8cffbfc1-2213-40f4-b729-3a7c2602ff4e" name="esat" url="http://ssh.esat.kuleuven.be">
+        <fileTransfer host="ssh.esat.kuleuven.be" port="22" rootFolder="/esat/spchtemp/scratch/lbollens/experiments" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

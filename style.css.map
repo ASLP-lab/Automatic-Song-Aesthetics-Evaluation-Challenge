@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/home/runner/work/Automatic-Song-Aesthetics-Evaluation-Challenge-2026/Automatic-Song-Aesthetics-Evaluation-Challenge-2026",
+	"sourceRoot": "/home/runner/work/Automatic-Song-Aesthetics-Evaluation-Challenge/Automatic-Song-Aesthetics-Evaluation-Challenge",
 	"sources": [
 		"themes/arcana/assets/sass/main.scss",
 		"themes/arcana/assets/sass/libs/_vars.scss",

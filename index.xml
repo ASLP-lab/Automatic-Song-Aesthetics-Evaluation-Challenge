@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/homepage_sections/general_description/</guid>
-      <description>Challenge Call todo</description>
+      <description>Call for Participation With the rapid growth of generative music models, such as song generation (composing melodies, lyrics, harmonies, and vocals), we are entering an exciting new era of personalized music, virtual artists, and multimedia content creation. Despite these advancements, the evaluation of the aesthetic quality of generated music remains a challenge. Traditional metrics like pitch accuracy and signal clarity fall short of capturing the complex emotional and artistic dimensions of music that matter most to listeners.</description>
     </item>
     
     <item>
@@ -21,7 +21,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/homepage_sections/leaderboard/</guid>
-      <description>Get started todo</description>
+      <description></description>
     </item>
     
     <item>
@@ -30,7 +30,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/homepage_sections/timeline/</guid>
-      <description>todo</description>
+      <description>Timeline September 01, 2025: Registration Opens September 10, 2025: Train set and baseline system release November 10, 2025: Test set release November 20, 2025: Results Submission Deadline December 07, 2025: Paper submission (2-page papers) January 11, 2026: Paper acceptance notification January 18, 2026: Camera-ready paper submission May 4-8, 2026: ICASSP 2026 in Spain </description>
     </item>
     
     <item>
@@ -39,7 +39,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/dataset/</guid>
-      <description>todo</description>
+      <description>To support model development, we have curated the SongEval dataset—an open-source benchmark containing 2,399 full-length songs (approx. 140.3 hours of generated song) from a variety of genres and languages. These songs have been annotated across five aesthetic dimensions:
+Overall Coherence Memorability Naturalness of Vocal Breathing and Phrasing Clarity of Song Structure Overall Musicality The dataset covers a wide range of genres including Pop, Rock, Jazz, Hip-hop, Classical, and more. It includes songs in both English and Mandarin Chinese, making it a diverse resource for training models.</description>
     </item>
     
     <item>
@@ -66,7 +67,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/homepage_sections/organizers/</guid>
-      <description>Organizers todo</description>
+      <description>Organizers The challenge is organized by a distinguished team of researchers:
+Lei Xie, Northwestern Polytechnical University (China) Hao Liu, Shanghai Conservatory of Music (China) Wenwu Wang, University of Surrey (UK) Wei Xue, Hong Kong University of Science and Technology (HK) Yui Sudo, SB Intuition (Japan) Ting Dang, University of Melbourne (Australia) Haohe Liu, Meta (UK) Hexin Liu, Nanyang Technological University (Singapore) Jingyao Wu, Massachusetts Institute of Technology (USA) Hao Shi, SB Intuition (Japan) Jixun Yao, Northwestern Polytechnical University (China) Huixin Xue, Shanghai Conservatory of Music (China) Ruibin Yuan, Hong Kong University of Science and Technology(HK) Guobin Ma, Northwestern Polytechnical University (China) Contact For any inquiries, please contact: Email: yaojx@mail.</description>
     </item>
     
     <item>
@@ -75,26 +77,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/registration/</guid>
-      <description>todo</description>
-    </item>
-    
-    <item>
-      <title>Task 1: todo</title>
-      <link>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task1/description/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task1/description/</guid>
-      <description>todo</description>
-    </item>
-    
-    <item>
-      <title>Task 2: todo</title>
-      <link>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task2/description/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task2/description/</guid>
-      <description>Description
-todo</description>
+      <description>Registration Teams interested in participating can complete their registration through our official Google Form. Simply follow the link provided, fill in the required team details, and submit your information to secure your spot. All registration submissions will be processed promptly, and you’ll receive a confirmation once your application is successfully received.
+Guidelines for participants Data Usage: Use of the official test set or any of its labels for model training or tuning is strictly prohibited.</description>
     </item>
     
     <item>
@@ -113,6 +97,25 @@ todo</description>
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task2/test_set/</guid>
       <description>todo</description>
+    </item>
+    
+    <item>
+      <title>Track 1: Overall Musicality Score Prediction</title>
+      <link>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task1/description/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task1/description/</guid>
+      <description>Description Participants must predict a single holistic aesthetic score for each song, representing an overall musical impression of the song&amp;rsquo;s artistic quality (corresponding to the Overall Musicality in SongEval dataset). Evaluation will be based on subjective scores from a panel of musician raters.</description>
+    </item>
+    
+    <item>
+      <title>Track 2: Fine-Grained Aesthetic Dimension Prediction</title>
+      <link>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task2/description/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task2/description/</guid>
+      <description>Description This track challenges participants to predict five specific aesthetic dimensions for each song, including:
+Overall Coherence Memorability Naturalness of Vocal Breathing and Phrasing Clarity of Song Structure Overall Musicality Each track will emphasize different aspects of song aesthetics to encourage detailed and holistic models for music evaluation. </description>
     </item>
     
   </channel>

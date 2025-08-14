@@ -16,21 +16,21 @@
     </item>
     
     <item>
-      <title>Task 1: todo</title>
-      <link>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task1/description/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task1/description/</guid>
-      <description>todo</description>
-    </item>
-    
-    <item>
       <title>Test Set Task 1</title>
       <link>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task1/test_set/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task1/test_set/</guid>
       <description>todo</description>
+    </item>
+    
+    <item>
+      <title>Track 1: Overall Musicality Score Prediction</title>
+      <link>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task1/description/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task1/description/</guid>
+      <description>Description Participants must predict a single holistic aesthetic score for each song, representing an overall musical impression of the song&amp;rsquo;s artistic quality (corresponding to the Overall Musicality in SongEval dataset). Evaluation will be based on subjective scores from a panel of musician raters.</description>
     </item>
     
   </channel>

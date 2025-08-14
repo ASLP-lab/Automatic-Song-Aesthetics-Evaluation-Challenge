@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/homepage_sections/general_description/</guid>
-      <description>Challenge Call todo</description>
+      <description>Call for Participation With the rapid growth of generative music models, such as song generation (composing melodies, lyrics, harmonies, and vocals), we are entering an exciting new era of personalized music, virtual artists, and multimedia content creation. Despite these advancements, the evaluation of the aesthetic quality of generated music remains a challenge. Traditional metrics like pitch accuracy and signal clarity fall short of capturing the complex emotional and artistic dimensions of music that matter most to listeners.</description>
     </item>
     
     <item>
@@ -21,7 +21,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/homepage_sections/leaderboard/</guid>
-      <description>Get started todo</description>
+      <description></description>
     </item>
     
     <item>
@@ -30,7 +30,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/homepage_sections/timeline/</guid>
-      <description>todo</description>
+      <description>Timeline September 01, 2025: Registration Opens September 10, 2025: Train set and baseline system release November 10, 2025: Test set release November 20, 2025: Results Submission Deadline December 07, 2025: Paper submission (2-page papers) January 11, 2026: Paper acceptance notification January 18, 2026: Camera-ready paper submission May 4-8, 2026: ICASSP 2026 in Spain </description>
     </item>
     
     <item>
@@ -39,7 +39,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/homepage_sections/organizers/</guid>
-      <description>Organizers todo</description>
+      <description>Organizers The challenge is organized by a distinguished team of researchers:
+Lei Xie, Northwestern Polytechnical University (China) Hao Liu, Shanghai Conservatory of Music (China) Wenwu Wang, University of Surrey (UK) Wei Xue, Hong Kong University of Science and Technology (HK) Yui Sudo, SB Intuition (Japan) Ting Dang, University of Melbourne (Australia) Haohe Liu, Meta (UK) Hexin Liu, Nanyang Technological University (Singapore) Jingyao Wu, Massachusetts Institute of Technology (USA) Hao Shi, SB Intuition (Japan) Jixun Yao, Northwestern Polytechnical University (China) Huixin Xue, Shanghai Conservatory of Music (China) Ruibin Yuan, Hong Kong University of Science and Technology(HK) Guobin Ma, Northwestern Polytechnical University (China) Contact For any inquiries, please contact: Email: yaojx@mail.</description>
     </item>
     
   </channel>

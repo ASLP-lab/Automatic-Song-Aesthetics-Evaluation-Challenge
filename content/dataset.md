@@ -12,4 +12,4 @@ To support model development, we have curated the [SongEval](https://huggingface
 - **Clarity of Song Structure**
 - **Overall Musicality**
 
-The dataset covers a wide range of genres including Pop, Rock, Jazz, Hip-hop, Classical, and more. It includes songs in both English and Mandarin Chinese, making it a diverse resource for training models. For more details concerning the dataset, we refer to [our dataset paper](https://arxiv.org/pdf/2505.10793).
+The dataset covers a wide range of genres including **Pop, Rock, Jazz, Hip-hop, Classical**, and more. It includes songs in both **English** and **Mandarin Chinese**, making it a diverse resource for training models. For more details concerning the dataset, we refer to [our dataset paper](https://arxiv.org/pdf/2505.10793).

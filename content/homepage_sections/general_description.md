@@ -31,6 +31,6 @@ The competition consists of two tracks:
 
 ## Evaluation
 Each track will use correlation-based metrics:
-- System-level SRCC and LCC
--  Utterance-level SRCC and LCC for each dimension, with macro-averaged SRCC as the primary evaluation metric.
+- **System-level SRCC and LCC**
+- **Utterance-level SRCC and LCC** for each dimension, with macro-averaged SRCC as the primary evaluation metric.
 - More to be considered

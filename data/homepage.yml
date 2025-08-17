@@ -9,7 +9,7 @@ items:
 
   - type: heading
     heading: Automatic Song Aesthetics Evaluation Challenge
-    contents: Automatic Song Aesthetics Evaluation Challenge — a competition aim at fostering the development of automatic models that can predict human aesthetic ratings of generated songs. 
+    contents: A competition aim at fostering the development of automatic models that can predict human aesthetic ratings of generated songs. 
 
   - type: other
     #heading: Recent Posts

@@ -70,19 +70,21 @@
 This challenge aims to create a benchmark for assessing the aesthetic quality of automatically generated songs. Participants will develop models that predict human ratings of songs based on musicality, emotional engagement, vocal expressiveness, and overall enjoyment.</p>
 <p><strong>Join us to push the boundaries of song aesthetics evaluation and contribute to the future of generative music!</strong></p>
 <h2 id="challenge-overview">Challenge Overview</h2>
-<p>The ICASSP 2026 Automatic Song Aesthetics Evaluation Challenge is designed to foster the development of models that can predict human aesthetic ratings of full-length generated songs. We focus on generating songs that align with human perceptions of musicality, emotional depth, and vocal expressiveness. Participants will be tasked with developing models that predict subjective ratings based on audio inputs.
-Objective: Create models that can predict human ratings of aesthetic quality in songs, including dimensions like overall musicality, emotional engagement, and vocal expressiveness.</p>
+<p>The ICASSP 2026 Automatic Song Aesthetics Evaluation Challenge is designed to foster the development of models that can predict human aesthetic ratings of full-length generated songs. We focus on generating songs that align with human perceptions of musicality, emotional depth, and vocal expressiveness. Participants will be tasked with developing models that predict subjective ratings based on audio inputs.</p>
+<p>Objective: Create models that can predict human ratings of aesthetic quality in songs, including dimensions like overall musicality, emotional engagement, and vocal expressiveness.</p>
 <h2 id="track-settings">Track Settings</h2>
 <p>The competition consists of two tracks:</p>
 <p><strong>Track 1: Overall Musicality Score Prediction</strong> Participants must predict a single holistic aesthetic score for each song, representing an overall musical impression of the song&rsquo;s artistic quality.</p>
 <p><strong>Track 2: Fine-Grained Aesthetic Dimension Prediction</strong> Participants to predict five specific aesthetic dimensions for each song.</p>
 <h2 id="evaluation">Evaluation</h2>
-<p>Each track will use correlation-based metrics:</p>
+<p>Each track will use correlation-based metrics as follows:</p>
 <ul>
-<li><strong>System-level SRCC and LCC</strong></li>
-<li><strong>Utterance-level SRCC and LCC</strong> for each dimension, with macro-averaged SRCC as the primary evaluation metric.</li>
-<li>More to be considered</li>
+<li><strong>Linear Correlation Coefficient</strong></li>
+<li><strong>Spearman’s rank correlation coefficient</strong></li>
+<li><strong>Kendall&rsquo;s Rank Correlation Coefficient</strong></li>
+<li><strong>Top-Tier Accuracy</strong></li>
 </ul>
+<p>We will mesure both system-level and utterance-level.</p>
 
 
                                 </article>

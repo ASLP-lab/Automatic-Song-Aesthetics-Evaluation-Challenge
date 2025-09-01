@@ -19,6 +19,7 @@ This challenge aims to create a benchmark for assessing the aesthetic quality of
 ## Challenge Overview
 
 The ICASSP 2026 Automatic Song Aesthetics Evaluation Challenge is designed to foster the development of models that can predict human aesthetic ratings of full-length generated songs. We focus on generating songs that align with human perceptions of musicality, emotional depth, and vocal expressiveness. Participants will be tasked with developing models that predict subjective ratings based on audio inputs.
+
 Objective: Create models that can predict human ratings of aesthetic quality in songs, including dimensions like overall musicality, emotional engagement, and vocal expressiveness.
 
 
@@ -30,7 +31,10 @@ The competition consists of two tracks:
 **Track 2: Fine-Grained Aesthetic Dimension Prediction** Participants to predict five specific aesthetic dimensions for each song.
 
 ## Evaluation
-Each track will use correlation-based metrics:
-- **System-level SRCC and LCC**
-- **Utterance-level SRCC and LCC** for each dimension, with macro-averaged SRCC as the primary evaluation metric.
-- More to be considered
+Each track will use correlation-based metrics as follows:
+- **Linear Correlation Coefficient**
+- **Spearman’s rank correlation coefficient**
+- **Kendall's Rank Correlation Coefficient**
+- **Top-Tier Accuracy**
+
+We will mesure both system-level and utterance-level.

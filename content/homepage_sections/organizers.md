@@ -23,9 +23,13 @@ The challenge is organized by a distinguished team of researchers:
 - **Huixin Xue**, Shanghai Conservatory of Music (China)
 - **Ruibin Yuan**, Hong Kong University of Science and Technology(HK)
 - **Guobin Ma**, Northwestern Polytechnical University (China)
-- **Hongda Gao**, Northwestern Polytechnical University (China)
+- **Yuxuan Xia**, Northwestern Polytechnical University (China)
 
 ## Contact
 
 For any inquiries, please contact:
 Email: yaojx@mail.nwpu.edu.cn
+
+Welcome to join our WeChat group
+
+{{< figure src="./images/wechat.jpg"  width="300" >}}

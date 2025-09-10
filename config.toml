@@ -21,12 +21,6 @@ theme = ["hugo-chart", "arcana"]
         url="/task1/test_set"
         weight = 2
     [[menu.main]]
-        parent = "task1"
-        identifier="leaderboard_1"
-        name = "leaderboard"
-        url="/task1/leaderboard"
-        weight = 3
-    [[menu.main]]
         identifier = "task2"
         name="Track 2: Fine-Grained Aesthetic Dimension Prediction"
         weight=110
@@ -42,11 +36,5 @@ theme = ["hugo-chart", "arcana"]
         name = "test_set"
         url="/task2/test_set"
         weight = 2
-    [[menu.main]]
-        parent = "task2"
-        identifier="leaderboard_2"
-        name = "leaderboard"
-        url="/task2/leaderboard"
-        weight = 3
 
 

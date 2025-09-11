@@ -38,3 +38,9 @@ Each track will use correlation-based metrics as follows:
 - **Top-Tier Accuracy**
 
 We will mesure both system-level and utterance-level.
+
+## Baseline System
+
+The competition provides a [baseline system](https://github.com/ASLP-lab/SongEval) built upon SongEval. The baseline toolkit leverages a trained aesthetic evaluation model on SongEval, enabling automatic scoring of generated songs across five perceptual dimensions, closely aligned with professional musicians’ judgments.
+
+This baseline serves as a reproducible and extensible starting point, helping participants better benchmark their systems and ensuring fair comparison across different approaches.

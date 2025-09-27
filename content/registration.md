@@ -12,4 +12,6 @@ Teams interested in participating can complete their registration through our [o
 
 # Guidelines for participants
 
-- Data Usage: Use of the official test set or any of its labels for model training or tuning is strictly prohibited. Participants are not allowed to use any private or unauthorized datasets.
+- Dataset Integrity: Strictly use only the official dataset for training. The use of any external, private, or unauthorized data is prohibited.
+- Model Transparency: Any use of open-source pretrained models must be clearly documented in the final technical report.
+- The organizers reserve the right to exclude systems from ranking and to exclude teams from futureparticipation in ASAE in the event that the above rules are not adhered to.

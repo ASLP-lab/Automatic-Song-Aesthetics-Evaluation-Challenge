@@ -14,6 +14,12 @@ To support model development, we have curated the [SongEval](https://huggingface
 
 The dataset covers a wide range of genres including **Pop, Rock, Jazz, Hip-hop, Classical**, and more. It includes songs in both **English** and **Mandarin Chinese**, making it a diverse resource for training models. For more details concerning the dataset, we refer to [dataset paper](https://arxiv.org/pdf/2505.10793).
 
+**Note** : Participants are **only allowed to use the provided dataset for training and validation**. The use of any additional external datasets is strictly prohibited.
+
+However, participants are free to use any open-source pretrained models to support their system development. In the final technical report, participants must clearly specify:
+- Which pretrained models were used;
+- The corresponding open-source links or references.  
+
 # Evaluation Dataset
 
 To rigorously assess the capabilities of participating models, we have prepared two distinct datasets, one for each competition track. 

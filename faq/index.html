@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+
+<title>FAQ | ICASSP 2026: Automatic Song Aesthetics Evaluation Challenge</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="/Automatic-Song-Aesthetics-Evaluation-Challenge/style.css" />
+<meta property="og:title" content="FAQ" />
+<meta property="og:description" content="Frequently Asked Questions" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/faq/" /><meta property="article:section" content="" />
+
+
+
+</head>
+    <body class="is-preload">
+        <div id="page-wrapper"><div id="header">
+    <h1><a href="https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/" id="logo">
+        Automatic Song Aesthetics Evaluation Challenge - ICASSP 2026
+    </a></h1>
+
+    <nav id="nav">
+        <ul>
+                <li class="">
+                    <a href="/Automatic-Song-Aesthetics-Evaluation-Challenge/">Home</a>
+                <li class="">
+                    <a href="/Automatic-Song-Aesthetics-Evaluation-Challenge/dataset/">Dataset</a>
+                <li class="">
+                    <a href="/Automatic-Song-Aesthetics-Evaluation-Challenge/registration/">Registration</a>
+                <li class="">
+                    <a href="#">Track 1: Overall Musicality Score Prediction</a><ul>
+                        <li class="">
+                            <a href="/Automatic-Song-Aesthetics-Evaluation-Challenge/task1/description">description</a>
+                        <li class="">
+                            <a href="/Automatic-Song-Aesthetics-Evaluation-Challenge/task1/test_set">test_set</a>
+                    </ul>
+                <li class="">
+                    <a href="#">Track 2: Fine-Grained Aesthetic Dimension Prediction</a><ul>
+                        <li class="">
+                            <a href="/Automatic-Song-Aesthetics-Evaluation-Challenge/task2/description">description</a>
+                        <li class="">
+                            <a href="/Automatic-Song-Aesthetics-Evaluation-Challenge/task2/test_set">test_set</a>
+                    </ul>
+                <li class="current">
+                    <a href="/Automatic-Song-Aesthetics-Evaluation-Challenge/faq/">FAQ</a>
+        </ul>
+    </nav>
+</div>
+
+            <section class="wrapper style1">
+                <div class="container">
+                    
+
+                        <div class="">
+                            <div id="content">
+                                <article>
+    <header>
+        <h2>FAQ</h2>
+        <p>Frequently Asked Questions</p>
+        
+        
+        <ul class="tags">
+</ul>
+
+    </header><h2 id="general-information">General Information</h2>
+<p><strong>Q: What does Track 1&rsquo;s &ldquo;single holistic aesthetic score&rdquo; refer to?</strong></p>
+<p>A: Track 1 requires predicting the &ldquo;Overall Musicality&rdquo; dimension specifically (one of the five aesthetic dimensions), not an average of all five dimensions.</p>
+<h2 id="registration-and-participation">Registration and Participation</h2>
+<p><strong>Q: How do I register for the challenge?</strong></p>
+<p>A: Teams can complete registration through the <a href="https://docs.google.com/forms/d/e/1FAIpQLSejinwosfchGsyN0Xoh3cfz6TIC79c9WUKNLCI2T5yS-pKRUg/viewform?usp=sharing&amp;ouid=102700557983879249800">official Google Form</a>. Fill in the required team details and submit. You will receive confirmation once your registration is successfully processed.</p>
+<p><strong>Q: Can individuals participate, or is team participation required?</strong></p>
+<p>A: Yes, individuals are welcome to participate. They should register as a team of one.</p>
+<h2 id="dataset">Dataset</h2>
+<p><strong>Q: What is the training dataset?</strong></p>
+<p>A: The official SongEval dataset is provided, containing 2,399 full-length songs (approximately 140.3 hours of generated music) covering various genres and languages, including Pop, Rock, Jazz, Hip-hop, Classical, etc., supporting both English and Mandarin Chinese.</p>
+<p><strong>Q: What is the rating scale for the aesthetic scores?</strong></p>
+<p>A: The aesthetic scores are rated on a 5-point scale, from 1 (lowest quality) to 5 (highest quality). For more details on the annotation methodology, please refer to the official SongEval paper.</p>
+<p><strong>Q: Can I use additional external datasets?</strong></p>
+<p>A: No. Participants are <strong>only allowed to use the provided official dataset for training and validation</strong>. The use of any additional external datasets is strictly prohibited.</p>
+<p><strong>Q: Can I use pretrained models?</strong></p>
+<p>A: Yes. Participants are free to use any open-source pretrained models to support system development. In the final technical report, participants must clearly specify which pretrained models were used and provide corresponding open-source links or references.</p>
+<h2 id="evaluation-and-submission">Evaluation and Submission</h2>
+<p><strong>Q: What is Top-Tier Accuracy?</strong></p>
+<p>A: Top-Tier Accuracy measures the accuracy of identifying top-performing songs by comparing the model&rsquo;s top-ranked songs with the actual top-ranked songs. In music evaluation, we typically care more about whether models can accurately identify excellent songs rather than distinguish mediocre ones. Songs are categorized into &ldquo;top songs&rdquo; and &ldquo;non-top songs&rdquo; based on a threshold.</p>
+<p><strong>Q: How is the final ranking determined from the four evaluation metrics?</strong></p>
+<p>A: The final ranking is determined by the weighted average of four normalized evaluation metrics. Each metric carries equal weight.</p>
+<p><strong>Q: What are the ground truth labels based on?</strong></p>
+<p>A: All evaluation metrics use ground truth labels that are the <strong>average of four expert raters&rsquo; scores</strong>.</p>
+<h2 id="technical-requirements">Technical Requirements</h2>
+<p><strong>Q: Is a baseline system provided?</strong></p>
+<p>A: Yes. The competition provides a <a href="https://github.com/ASLP-lab/SongEval">baseline system</a> built upon SongEval. The baseline leverages a trained aesthetic evaluation model on SongEval, enabling automatic scoring of generated songs across five perceptual dimensions.</p>
+<p><strong>Q: What are the input format requirements?</strong></p>
+<p>A: Models need to process full-length audio inputs. Specific audio format requirements  with the following specifications：</p>
+<ul>
+<li>File Format: MP3</li>
+<li>Sample Rate: 44,100 Hz</li>
+<li>Channels: Stereo (2 channels)</li>
+</ul>
+
+
+                                </article>
+                            </div>
+                        </div>
+
+                    
+                </div>
+            </section><div id="footer">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+
+    <ul class="icons">
+    </ul>
+
+    <div class="copyright">
+        <ul class="menu">
+            
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a>
+                <li><a href="https://github.com/half-duplex/hugo-arcana">Theme</a>
+        </ul>
+    </div>
+</div>
+</div><script src="/Automatic-Song-Aesthetics-Evaluation-Challenge/js/jquery.min.js"></script>
+<script src="/Automatic-Song-Aesthetics-Evaluation-Challenge/js/jquery.dropotron.min.js"></script>
+<script src="/Automatic-Song-Aesthetics-Evaluation-Challenge/js/browser.min.js"></script>
+<script src="/Automatic-Song-Aesthetics-Evaluation-Challenge/js/breakpoints.min.js"></script>
+<script src="/Automatic-Song-Aesthetics-Evaluation-Challenge/js/util.js"></script>
+<script src="/Automatic-Song-Aesthetics-Evaluation-Challenge/js/main.js"></script>
+</body>
+</html>

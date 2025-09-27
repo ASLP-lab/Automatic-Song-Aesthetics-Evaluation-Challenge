@@ -60,7 +60,7 @@ Lei Xie, Northwestern Polytechnical University (China) Hao Liu, Shanghai Conserv
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/registration/</guid>
       <description>Registration Teams interested in participating can complete their registration through our official Google Form. Simply follow the link provided, fill in the required team details, and submit your information to secure your spot. All registration submissions will be processed promptly, and you’ll receive a confirmation once your application is successfully received.
-Guidelines for participants Data Usage: Use of the official test set or any of its labels for model training or tuning is strictly prohibited.</description>
+Guidelines for participants Dataset Integrity: Strictly use only the official dataset for training. The use of any external, private, or unauthorized data is prohibited.</description>
     </item>
     
     <item>
@@ -98,6 +98,18 @@ Guidelines for participants Data Usage: Use of the official test set or any of i
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task2/description/</guid>
       <description>Description This track challenges participants to predict five specific aesthetic dimensions for each song, including:
 Overall Coherence Memorability Naturalness of Vocal Breathing and Phrasing Clarity of Song Structure Overall Musicality Each track will emphasize different aspects of song aesthetics to encourage detailed and holistic models for music evaluation. </description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/faq/</guid>
+      <description>General Information Q: What does Track 1&amp;rsquo;s &amp;ldquo;single holistic aesthetic score&amp;rdquo; refer to?
+A: Track 1 requires predicting the &amp;ldquo;Overall Musicality&amp;rdquo; dimension specifically (one of the five aesthetic dimensions), not an average of all five dimensions.
+Registration and Participation Q: How do I register for the challenge?
+A: Teams can complete registration through the official Google Form. Fill in the required team details and submit. You will receive confirmation once your registration is successfully processed.</description>
     </item>
     
   </channel>

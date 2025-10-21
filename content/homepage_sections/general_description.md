@@ -43,4 +43,6 @@ We will mesure both system-level and utterance-level.
 
 The competition provides a [baseline system](https://github.com/ASLP-lab/SongEval) built upon SongEval. The baseline toolkit leverages a trained aesthetic evaluation model on SongEval, enabling automatic scoring of generated songs across five perceptual dimensions, closely aligned with professional musicians’ judgments.
 
+The baseline test validation IDs are available in the [`val_ids.txt`](https://github.com/ASLP-lab/Automatic-Song-Aesthetics-Evaluation-Challenge/blob/main/static/val_ids.txt) file.
+
 This baseline serves as a reproducible and extensible starting point, helping participants better benchmark their systems and ensuring fair comparison across different approaches.

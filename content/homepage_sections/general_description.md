@@ -39,6 +39,36 @@ Each track will use correlation-based metrics as follows:
 
 We will mesure both system-level and utterance-level.
 
+
+## Submission Instructions
+
+Final results can be submitted using Google form: https://docs.google.com/forms/d/e/1FAIpQLSdVt-TUGRr8sSG4IxgnMEUssGXEatlwFjYcrUl54Zveb4uySA/viewform?usp=dialog
+
+### Prediction files
+Each participating team must submit one SCP file per track.
+- Track 1 submission format:
+
+    Each line should contain: utt score
+
+- Track 2 submission format:
+
+    Each line should contain: utt score1 score2 score3 score4 score5
+
+Please ensure that the utt IDs exactly match those in the provided test sets.
+
+All predicted scores are in a valid numeric format.
+
+Files are named as track1_set1_pred.scp, track1_set2_pred.scp and track2_pred.scp, respectively.
+
+### System description (2 pages)
+
+  - Each team must submit a two-page system description summarizing their method, model architecture, training strategy, and any relevant implementation details.
+
+  - The format should follow the ICASSP official paper template (available on the ICASSP 2026 website) https://cmsworkshops.com/ICASSP2026/papers/paper_kit.php#Templates
+
+
+**Submission of both the prediction files and the system description is required. Missing either will lead to cancellation of the results.**
+
 ## Baseline System
 
 The competition provides a [baseline system](https://github.com/ASLP-lab/SongEval) built upon SongEval. The baseline toolkit leverages a trained aesthetic evaluation model on SongEval, enabling automatic scoring of generated songs across five perceptual dimensions, closely aligned with professional musicians’ judgments.

@@ -5,6 +5,11 @@ description: "General description"
 ---
 
 
+## News and Updates
+
+**November 15, 2025**: We have updated the formula and threshold for Top-Tier Accuracy. Detailed information is available under the "Evaluation" section on the homepage of our official website.
+
+**November 10, 2025**: We have sent the test set and Submission Instructions to all successfully registered teams via email. You can also find the Submission Instructions on the official website homepage, and the test set download link on the two respective track pages.
 
 
 ## Call for Participation
@@ -38,6 +43,24 @@ Each track will use correlation-based metrics as follows:
 - **Top-Tier Accuracy**
 
 We will mesure both system-level and utterance-level.
+
+### Top-Tier Accuracy Calculation Rules & Thresholds
+
+**Quantification Method**: Top-Tier Accuracy is uniformly measured using the F1 score.
+
+- F1 Score Formula: F1 = 2 × (Precision × Recall) / (Precision + Recall)
+
+- Brief Definition: Precision = True Positives / (True Positives + False Positives); Recall = True Positives / (True Positives + False Negatives)
+
+**Top-Tier Song Thresholds**:
+
+- Track 1 (Overall Musicality): Score ≥ 4.0
+- Track 2 (Subdivided Aesthetic Dimensions):
+  - Coherence ≥ 4.0
+  - Memorability ≥ 3.75
+  - Naturalness ≥ 4.0
+  - Clarity ≥ 3.75
+  - Musicality ≥ 4.0
 
 
 ## Submission Instructions

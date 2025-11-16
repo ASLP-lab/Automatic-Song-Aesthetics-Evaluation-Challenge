@@ -12,8 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/homepage_sections/general_description/</guid>
-      <description>News and Updates November 15, 2025: We have updated the formula and threshold for Top-Tier Accuracy. Detailed information is available under the &amp;ldquo;Evaluation&amp;rdquo; section on the homepage of our official website.
-November 10, 2025: We have sent the test set and Submission Instructions to all successfully registered teams via email. You can also find the Submission Instructions on the official website homepage, and the test set download link on the two respective track pages.</description>
+      <description>News and Updates November 15, 2025: We have updated the formula and threshold for calculating Top-Tier Accuracy with detailed information available at the Evaluation section below.
+November 10, 2025: We have sent the test set and submission Instructions to all successfully registered teams via email. These are also available in the respective track pages. Kindly note that the final submission deadline is 23:59 November 20, 2025 (AoE time).
+Call for Participation With the rapid growth of generative music models, such as song generation (composing melodies, lyrics, harmonies, and vocals), we are entering an exciting new era of personalized music, virtual artists, and multimedia content creation.</description>
     </item>
     
     <item>
@@ -31,7 +32,7 @@ November 10, 2025: We have sent the test set and Submission Instructions to all 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/homepage_sections/timeline/</guid>
-      <description>Timeline September 01, 2025: Registration Opens September 10, 2025: Train set and baseline system release November 10, 2025: Test set release November 20, 2025: Results Submission Deadline December 07, 2025: Paper submission (2-page papers) January 11, 2026: Paper acceptance notification January 18, 2026: Camera-ready paper submission May 4-8, 2026: ICASSP 2026 in Spain </description>
+      <description>Timeline September 01, 2025: Registration opens September 10, 2025: Train set and baseline system release November 10, 2025: Test set release November 20, 2025: Results and system description submission deadline December 07, 2025: ICASSP2026 GC paper submission deadline (invited only) January 11, 2026: ICASSP2026 GC paper acceptance notification January 18, 2026: ICASSP2026 GC camera-ready paper submission deadline May 4-8, 2026: ICASSP 2026 at Barcelona, Spain </description>
     </item>
     
     <item>
@@ -41,7 +42,7 @@ November 10, 2025: We have sent the test set and Submission Instructions to all 
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/homepage_sections/organizers/</guid>
       <description>Organizers The challenge is organized by a distinguished team of researchers:
-Lei Xie, Northwestern Polytechnical University (China) Hao Liu, Shanghai Conservatory of Music (China) Wenwu Wang, University of Surrey (UK) Wei Xue, Hong Kong University of Science and Technology (HK) Shuai Wang, Nanjing University (China) Yui Sudo, SB Intuition (Japan) Ting Dang, University of Melbourne (Australia) Haohe Liu, Meta (UK) Hexin Liu, Nanyang Technological University (Singapore) Xiangyu Zhang, University of New South Wales (Australia) Jingyao Wu, Massachusetts Institute of Technology (USA) Hao Shi, SB Intuition (Japan) Jixun Yao, Northwestern Polytechnical University (China) Huixin Xue, Shanghai Conservatory of Music (China) Ziqian Ning, Northwestern Polytechnical University (China) Ruibin Yuan, Hong Kong University of Science and Technology(HK) Guobin Ma, Northwestern Polytechnical University (China) Yuxuan Xia, Northwestern Polytechnical University (China) Contact For any inquiries, please contact: Email: yaojx@mail.</description>
+Lei Xie, Northwestern Polytechnical University (China) Hao Liu, Shanghai Conservatory of Music (China) Wenwu Wang, University of Surrey (United Kingdom) Wei Xue, Hong Kong University of Science and Technology (Hong Kong, China) Shuai Wang, Nanjing University (China) Yui Sudo, SB Intuition (Japan) Ting Dang, University of Melbourne (Australia) Haohe Liu, Meta (United Kingdom) Hexin Liu, Nanyang Technological University (Singapore) Xiangyu Zhang, University of New South Wales (Australia) Jingyao Wu, Massachusetts Institute of Technology (United States of America) Hao Shi, SB Intuition (Japan) Jixun Yao, Northwestern Polytechnical University (China) Huixin Xue, Shanghai Conservatory of Music (China) Ziqian Ning, Northwestern Polytechnical University (China) Ruibin Yuan, Hong Kong University of Science and Technology (Hong Kong, China) Guobin Ma, Northwestern Polytechnical University (China) Yuxuan Xia, Northwestern Polytechnical University (China) Contact For any inquiries, please contact: Email: yaojx@mail.</description>
     </item>
     
   </channel>

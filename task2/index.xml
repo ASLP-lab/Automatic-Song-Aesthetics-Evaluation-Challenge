@@ -7,23 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task2/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test Set Track 2</title>
-      <link>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task2/test_set/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task2/test_set/</guid>
-      <description>Track 2: Fine-Grained Aesthetic Dimension Prediction For Track 2, we have included a number of special samples designed to test model sensitivity to individual aesthetic dimensions. Each of these samples exhibits degradation in only one or two specific dimensions rather than an overall aesthetic drop, encouraging more fine-grained prediction capability.
-Download link</description>
-    </item>
-    
-    <item>
-      <title>Track 2: Fine-Grained Aesthetic Dimension Prediction</title>
+      <title></title>
       <link>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task2/description/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task2/description/</guid>
       <description>Description This track challenges participants to predict five specific aesthetic dimensions for each song, including:
 Overall Coherence Memorability Naturalness of Vocal Breathing and Phrasing Clarity of Song Structure Overall Musicality Each track will emphasize different aspects of song aesthetics to encourage detailed and holistic models for music evaluation. </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task2/test_set/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aslp-lab.github.io/Automatic-Song-Aesthetics-Evaluation-Challenge/task2/test_set/</guid>
+      <description>Test Set Track 2 test set includes samples with isolated degradations to test fine-grained model sensitivity to individual aesthetic dimensions.
+Download link</description>
     </item>
     
   </channel>

@@ -7,9 +7,9 @@ description: "General description"
 
 ## News and Updates
 
-**November 15, 2025**: We have updated the formula and threshold for Top-Tier Accuracy. Detailed information is available under the "Evaluation" section on the homepage of our official website.
+**November 15, 2025**: We have updated the formula and threshold for calculating Top-Tier Accuracy with detailed information available at the Evaluation section below.
 
-**November 10, 2025**: We have sent the test set and Submission Instructions to all successfully registered teams via email. You can also find the Submission Instructions on the official website homepage, and the test set download link on the two respective track pages.
+**November 10, 2025**: We have sent the test set and submission Instructions to all successfully registered teams via email. These are also available in the respective track pages. Kindly note that the final submission deadline is **23:59 November 20, 2025 (AoE time)**.
 
 
 ## Call for Participation
@@ -90,7 +90,7 @@ Files are named as track1_set1_pred.scp, track1_set2_pred.scp and track2_pred.sc
   - The format should follow the ICASSP official paper template (available on the ICASSP 2026 website) https://cmsworkshops.com/ICASSP2026/papers/paper_kit.php#Templates
 
 
-**Submission of both the prediction files and the system description is required. Missing either will lead to cancellation of the results.**
+**Submission of both the prediction files and the system description is required. Missing either will lead to cancellation of the challenge ranking.**
 
 ## Baseline System
 

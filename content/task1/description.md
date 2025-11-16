@@ -1,6 +1,4 @@
 ---
-title: "Track 1: Overall Musicality Score Prediction"
-description: "Participants must predict a single holistic aesthetic score for each song, representing an overall musical impression of the song's artistic quality."
 menu: task1
 weight: 80
 ---

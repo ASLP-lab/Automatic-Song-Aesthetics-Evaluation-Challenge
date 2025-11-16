@@ -1,6 +1,4 @@
 ---
-title: "Track 2: Fine-Grained Aesthetic Dimension Prediction"
-description: "participants to predict five specific aesthetic dimensions for each song."
 menu: task2
 weight: 80
 ---

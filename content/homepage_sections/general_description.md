@@ -65,7 +65,7 @@ We will mesure both system-level and utterance-level.
 
 ## Submission Instructions
 
-Final results can be submitted using Google form: https://docs.google.com/forms/d/e/1FAIpQLSdVt-TUGRr8sSG4IxgnMEUssGXEatlwFjYcrUl54Zveb4uySA/viewform?usp=dialog
+Final results can be submitted using Google form: [ICASSP-2026-asae-challenge-testset](https://docs.google.com/forms/d/e/1FAIpQLSdVt-TUGRr8sSG4IxgnMEUssGXEatlwFjYcrUl54Zveb4uySA/viewform?usp=dialog)
 
 ### Prediction files
 Each participating team must submit one SCP file per track.
@@ -87,7 +87,7 @@ Files are named as track1_set1_pred.scp, track1_set2_pred.scp and track2_pred.sc
 
   - Each team must submit a two-page system description summarizing their method, model architecture, training strategy, and any relevant implementation details.
 
-  - The format should follow the ICASSP official paper template (available on the ICASSP 2026 website) https://cmsworkshops.com/ICASSP2026/papers/paper_kit.php#Templates
+  - The format should follow the [ICASSP official paper template](https://cmsworkshops.com/ICASSP2026/papers/paper_kit.php#Templates) (available on the ICASSP 2026 website) 
 
 
 **Submission of both the prediction files and the system description is required. Missing either will lead to cancellation of the challenge ranking.**

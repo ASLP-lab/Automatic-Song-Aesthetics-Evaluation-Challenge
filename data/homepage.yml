@@ -1,6 +1,5 @@
 banner:
   enable: false
-  # image: "images/ICASSP_2024_Web_banner.webp"
   contents: "**Automatic Song Aesthetics Evaluation Challenge:** _ICASSP 2026_"
   button:
     contents: "Get started"
@@ -15,10 +14,3 @@ items:
     #heading: Recent Posts
     content_type: homepage_sections
     max: 4
-
-
-  - type: cta
-    contents: Are you ready?
-    button:
-      contents: Get started with track 1
-      url: "task1"

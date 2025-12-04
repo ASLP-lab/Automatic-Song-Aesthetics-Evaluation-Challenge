@@ -4,8 +4,44 @@ weight: 10
 description: "General description"
 ---
 
+<style>
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+table th,
+table td {
+    border: 1px solid #e0e0e0;
+    padding: 0.75em 1em;
+}
+table th:first-child,
+table td:first-child {
+    width: 80px;
+    text-align: center;
+}
+table th:nth-child(2),
+table td:nth-child(2) {
+    width: 250px;
+    text-align: center;
+}
+table th:last-child,
+table td:last-child {
+    width: 120px;
+    text-align: right;
+}
+table thead th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+}
+table tbody tr:hover {
+    background-color: #fafafa;
+}
+</style>
 
 ## News and Updates
+
+**December 4, 2025**: We have updated the ranking results with detailed information available in the "Leaderboard" section below.
 
 **November 15, 2025**: We have updated the formula and threshold for calculating Top-Tier Accuracy with detailed information available at the Evaluation section below.
 
@@ -99,3 +135,54 @@ The competition provides a [baseline system](https://github.com/ASLP-lab/SongEva
 The baseline test validation IDs are available in the [`val_ids.txt`](https://github.com/ASLP-lab/Automatic-Song-Aesthetics-Evaluation-Challenge/blob/main/static/val_ids.txt) file.
 
 This baseline serves as a reproducible and extensible starting point, helping participants better benchmark their systems and ensuring fair comparison across different approaches.
+
+
+## Leaderboard
+
+### Track 1: Overall Musicality Score Prediction
+
+| Rank | Team Name       | Score |
+|:----:|:---------------:|:-----:|
+| 1🏆    | Hachimi         | 0.575 |
+| 2🏆   | BAL-RAE         | 0.556 |
+| 3🏆    | qualifier       | 0.529 |
+| 4    | HyperCritic     | 0.518 |
+| **5**    | **Baseline**    | **0.510** |
+| 6    | yyyf            | 0.507 |
+| 6    | LoveAlmusic     | 0.507 |
+| 8    | LeVo            | 0.503 |
+| 9    | Ah3Dui          | 0.497 |
+| 9    | Niuguangshuo    | 0.497 |
+| 11   | nbu             | 0.496 |
+| 12   | mi-whu          | 0.476 |
+| 13   | BHE-AIM         | 0.469 |
+| 14   | Harmonics       | 0.438 |
+| 15   | Team_Mingda     | 0.429 |
+| 16   | MAIL            | 0.426 |
+| 17   | IITJVision      | 0.425 |
+| 18   | PIRL            | 0.424 |
+| 19   | DYME            | 0.388 |
+
+
+### Track 2: Fine-Grained Aesthetic Dimension Prediction
+
+
+| Rank | Team Name       | Score |
+|:----:|:---------------:|:-----:|
+| 1🏆    | LeVo            | 0.655 |
+| 2🏆    | HyperCritic     | 0.604 |
+| 3    | Team Resonance  | 0.598 |
+| 4    | mi-whu          | 0.596 |
+| 5    | BAL-RAE         | 0.589 |
+| **6**    | **Baseline**    | **0.574** |
+| 7    | yyyf            | 0.573 |
+| 8    | LoveAlmusic     | 0.568 |
+| 9    | MAIL            | 0.567 |
+| 10   | Niuguangshuo    | 0.563 |
+| 11   | Ah3Dui          | 0.553 |
+| 11   | PIRL            | 0.553 |
+| 13   | Harmonics       | 0.525 |
+| 14   | DYME            | 0.501 |
+| 15   | nk_hlt_group    | 0.499 |
+| 16   | Hachimi         | 0.493 |
+| 17   | nbu             | 0.484 |

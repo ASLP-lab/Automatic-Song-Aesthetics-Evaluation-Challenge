@@ -63,7 +63,42 @@
         <ul class="tags">
 </ul>
 
-    </header><h2 id="news-and-updates">News and Updates</h2>
+    </header><style>
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+table th,
+table td {
+    border: 1px solid #e0e0e0;
+    padding: 0.75em 1em;
+}
+table th:first-child,
+table td:first-child {
+    width: 80px;
+    text-align: center;
+}
+table th:nth-child(2),
+table td:nth-child(2) {
+    width: 250px;
+    text-align: center;
+}
+table th:last-child,
+table td:last-child {
+    width: 120px;
+    text-align: right;
+}
+table thead th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+}
+table tbody tr:hover {
+    background-color: #fafafa;
+}
+</style>
+<h2 id="news-and-updates">News and Updates</h2>
+<p><strong>December 4, 2025</strong>: We have updated the ranking results with detailed information available in the &ldquo;Leaderboard&rdquo; section below.</p>
 <p><strong>November 15, 2025</strong>: We have updated the formula and threshold for calculating Top-Tier Accuracy with detailed information available at the Evaluation section below.</p>
 <p><strong>November 10, 2025</strong>: We have sent the test set and submission Instructions to all successfully registered teams via email. These are also available in the respective track pages. Kindly note that the final submission deadline is <strong>23:59 November 20, 2025 (AoE time)</strong>.</p>
 <h2 id="call-for-participation">Call for Participation</h2>
@@ -140,6 +175,211 @@ This challenge aims to create a benchmark for assessing the aesthetic quality of
 <p>The competition provides a <a href="https://github.com/ASLP-lab/SongEval">baseline system</a> built upon SongEval. The baseline toolkit leverages a trained aesthetic evaluation model on SongEval, enabling automatic scoring of generated songs across five perceptual dimensions, closely aligned with professional musicians’ judgments.</p>
 <p>The baseline test validation IDs are available in the <a href="https://github.com/ASLP-lab/Automatic-Song-Aesthetics-Evaluation-Challenge/blob/main/static/val_ids.txt"><code>val_ids.txt</code></a> file.</p>
 <p>This baseline serves as a reproducible and extensible starting point, helping participants better benchmark their systems and ensuring fair comparison across different approaches.</p>
+<h2 id="leaderboard">Leaderboard</h2>
+<h3 id="track-1-overall-musicality-score-prediction">Track 1: Overall Musicality Score Prediction</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Rank</th>
+<th style="text-align:center">Team Name</th>
+<th style="text-align:center">Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1🏆</td>
+<td style="text-align:center">Hachimi</td>
+<td style="text-align:center">0.575</td>
+</tr>
+<tr>
+<td style="text-align:center">2🏆</td>
+<td style="text-align:center">BAL-RAE</td>
+<td style="text-align:center">0.556</td>
+</tr>
+<tr>
+<td style="text-align:center">3🏆</td>
+<td style="text-align:center">qualifier</td>
+<td style="text-align:center">0.529</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">HyperCritic</td>
+<td style="text-align:center">0.518</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>5</strong></td>
+<td style="text-align:center"><strong>Baseline</strong></td>
+<td style="text-align:center"><strong>0.510</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:center">yyyf</td>
+<td style="text-align:center">0.507</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:center">LoveAlmusic</td>
+<td style="text-align:center">0.507</td>
+</tr>
+<tr>
+<td style="text-align:center">8</td>
+<td style="text-align:center">LeVo</td>
+<td style="text-align:center">0.503</td>
+</tr>
+<tr>
+<td style="text-align:center">9</td>
+<td style="text-align:center">Ah3Dui</td>
+<td style="text-align:center">0.497</td>
+</tr>
+<tr>
+<td style="text-align:center">9</td>
+<td style="text-align:center">Niuguangshuo</td>
+<td style="text-align:center">0.497</td>
+</tr>
+<tr>
+<td style="text-align:center">11</td>
+<td style="text-align:center">nbu</td>
+<td style="text-align:center">0.496</td>
+</tr>
+<tr>
+<td style="text-align:center">12</td>
+<td style="text-align:center">mi-whu</td>
+<td style="text-align:center">0.476</td>
+</tr>
+<tr>
+<td style="text-align:center">13</td>
+<td style="text-align:center">BHE-AIM</td>
+<td style="text-align:center">0.469</td>
+</tr>
+<tr>
+<td style="text-align:center">14</td>
+<td style="text-align:center">Harmonics</td>
+<td style="text-align:center">0.438</td>
+</tr>
+<tr>
+<td style="text-align:center">15</td>
+<td style="text-align:center">Team_Mingda</td>
+<td style="text-align:center">0.429</td>
+</tr>
+<tr>
+<td style="text-align:center">16</td>
+<td style="text-align:center">MAIL</td>
+<td style="text-align:center">0.426</td>
+</tr>
+<tr>
+<td style="text-align:center">17</td>
+<td style="text-align:center">IITJVision</td>
+<td style="text-align:center">0.425</td>
+</tr>
+<tr>
+<td style="text-align:center">18</td>
+<td style="text-align:center">PIRL</td>
+<td style="text-align:center">0.424</td>
+</tr>
+<tr>
+<td style="text-align:center">19</td>
+<td style="text-align:center">DYME</td>
+<td style="text-align:center">0.388</td>
+</tr>
+</tbody>
+</table>
+<h3 id="track-2-fine-grained-aesthetic-dimension-prediction">Track 2: Fine-Grained Aesthetic Dimension Prediction</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Rank</th>
+<th style="text-align:center">Team Name</th>
+<th style="text-align:center">Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1🏆</td>
+<td style="text-align:center">LeVo</td>
+<td style="text-align:center">0.655</td>
+</tr>
+<tr>
+<td style="text-align:center">2🏆</td>
+<td style="text-align:center">HyperCritic</td>
+<td style="text-align:center">0.604</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center">Team Resonance</td>
+<td style="text-align:center">0.598</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">mi-whu</td>
+<td style="text-align:center">0.596</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:center">BAL-RAE</td>
+<td style="text-align:center">0.589</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>6</strong></td>
+<td style="text-align:center"><strong>Baseline</strong></td>
+<td style="text-align:center"><strong>0.574</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td style="text-align:center">yyyf</td>
+<td style="text-align:center">0.573</td>
+</tr>
+<tr>
+<td style="text-align:center">8</td>
+<td style="text-align:center">LoveAlmusic</td>
+<td style="text-align:center">0.568</td>
+</tr>
+<tr>
+<td style="text-align:center">9</td>
+<td style="text-align:center">MAIL</td>
+<td style="text-align:center">0.567</td>
+</tr>
+<tr>
+<td style="text-align:center">10</td>
+<td style="text-align:center">Niuguangshuo</td>
+<td style="text-align:center">0.563</td>
+</tr>
+<tr>
+<td style="text-align:center">11</td>
+<td style="text-align:center">Ah3Dui</td>
+<td style="text-align:center">0.553</td>
+</tr>
+<tr>
+<td style="text-align:center">11</td>
+<td style="text-align:center">PIRL</td>
+<td style="text-align:center">0.553</td>
+</tr>
+<tr>
+<td style="text-align:center">13</td>
+<td style="text-align:center">Harmonics</td>
+<td style="text-align:center">0.525</td>
+</tr>
+<tr>
+<td style="text-align:center">14</td>
+<td style="text-align:center">DYME</td>
+<td style="text-align:center">0.501</td>
+</tr>
+<tr>
+<td style="text-align:center">15</td>
+<td style="text-align:center">nk_hlt_group</td>
+<td style="text-align:center">0.499</td>
+</tr>
+<tr>
+<td style="text-align:center">16</td>
+<td style="text-align:center">Hachimi</td>
+<td style="text-align:center">0.493</td>
+</tr>
+<tr>
+<td style="text-align:center">17</td>
+<td style="text-align:center">nbu</td>
+<td style="text-align:center">0.484</td>
+</tr>
+</tbody>
+</table>
 
 
                                 </article>

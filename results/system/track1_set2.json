@@ -1,0 +1,97 @@
+{
+    "yyyf": {
+        "pearson_r": 0.759069769433486,
+        "spearman_rho": 0.8200476856407694,
+        "kendall_tau": 0.6909090909090909
+    },
+    "Team_Mingda": {
+        "pearson_r": 0.5293492114073286,
+        "spearman_rho": 0.6241474051821412,
+        "kendall_tau": 0.509090909090909
+    },
+    "Niuguangshuo": {
+        "pearson_r": 0.8422154485171086,
+        "spearman_rho": 0.9020524542048463,
+        "kendall_tau": 0.7636363636363637
+    },
+    "HyperCritic": {
+        "pearson_r": 0.812708907157839,
+        "spearman_rho": 0.8838291723017181,
+        "kendall_tau": 0.7272727272727273
+    },
+    "BAL-RAE": {
+        "pearson_r": 0.8568177103446077,
+        "spearman_rho": 0.961278120390013,
+        "kendall_tau": 0.8727272727272727
+    },
+    "LeVo": {
+        "pearson_r": 0.8335323993983169,
+        "spearman_rho": 0.8838291723017181,
+        "kendall_tau": 0.7272727272727273
+    },
+    "Harmonics": {
+        "pearson_r": 0.6106846055456597,
+        "spearman_rho": 0.6560381485126155,
+        "kendall_tau": 0.509090909090909
+    },
+    "Ah3Dui": {
+        "pearson_r": 0.7693294663799124,
+        "spearman_rho": 0.7334870966009104,
+        "kendall_tau": 0.6181818181818182
+    },
+    "nbu": {
+        "pearson_r": 0.8527354319420969,
+        "spearman_rho": 0.7744894808829489,
+        "kendall_tau": 0.6545454545454545
+    },
+    "PIRL": {
+        "pearson_r": 0.4872752540093223,
+        "spearman_rho": 0.5785892004243206,
+        "kendall_tau": 0.4727272727272727
+    },
+    "Hachimi": {
+        "pearson_r": 0.8363188731957911,
+        "spearman_rho": 0.8154918651649873,
+        "kendall_tau": 0.6545454545454545
+    },
+    "IITJVision": {
+        "pearson_r": 0.7836073252475656,
+        "spearman_rho": 0.7744894808829489,
+        "kendall_tau": 0.6181818181818182
+    },
+    "mi-whu": {
+        "pearson_r": 0.7638469554559745,
+        "spearman_rho": 0.7562661989798206,
+        "kendall_tau": 0.6181818181818182
+    },
+    "qualifier": {
+        "pearson_r": 0.8547729809869634,
+        "spearman_rho": 0.8929408132532822,
+        "kendall_tau": 0.7272727272727273
+    },
+    "BHE-AIM": {
+        "pearson_r": 0.769449320551796,
+        "spearman_rho": 0.7744894808829489,
+        "kendall_tau": 0.5454545454545454
+    },
+    "DYME": {
+        "pearson_r": 0.6129810013193289,
+        "spearman_rho": 0.6241474051821412,
+        "kendall_tau": 0.4727272727272727
+    },
+    "MAIL (Multimodal Affective Interaction Lab)": {
+        "pearson_r": 0.7067296959359198,
+        "spearman_rho": 0.6879288918430898,
+        "kendall_tau": 0.509090909090909
+    },
+    "LoveAImusic": {
+        "pearson_r": 0.8826373979155988,
+        "spearman_rho": 0.879273351825936,
+        "kendall_tau": 0.7272727272727273
+    },
+    "baseline": {
+        "pearson_r": 0.7606201229829003,
+        "spearman_rho": 0.7425987375524745,
+        "kendall_tau": 0.5818181818181818
+    }
+}

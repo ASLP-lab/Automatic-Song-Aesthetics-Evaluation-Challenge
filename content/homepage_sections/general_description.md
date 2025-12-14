@@ -4,6 +4,27 @@ weight: 10
 description: "General description"
 ---
 
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      packages: {'[+]': ['ams']}
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    },
+    loader: {
+      load: ['[tex]/ams']
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 <style>
 table {
     table-layout: fixed;
@@ -41,9 +62,11 @@ table tbody tr:hover {
 
 ## News and Updates
 
-**December 4, 2025**: We have updated the ranking results with detailed information available in the "Leaderboard" section below.
+**December 14, 2025**: We have added a comprehensive ["**Detailed Analysis**"](#detailed-analysis) section, including scoring methodologies and performance visualizations for both tracks.
 
-**November 15, 2025**: We have updated the formula and threshold for calculating Top-Tier Accuracy with detailed information available at the Evaluation section below.
+**December 4, 2025**: We have updated the ranking results in the [“**Leaderboard**”](#leaderboard) section below.
+
+**November 15, 2025**: We have updated the formula and threshold for calculating Top-Tier Accuracy with detailed information available at the ["**Evaluation**"](#evaluation) section below.
 
 **November 10, 2025**: We have sent the test set and submission Instructions to all successfully registered teams via email. These are also available in the respective track pages. Kindly note that the final submission deadline is **23:59 November 20, 2025 (AoE time)**.
 
@@ -72,13 +95,14 @@ The competition consists of two tracks:
 **Track 2: Fine-Grained Aesthetic Dimension Prediction** Participants to predict five specific aesthetic dimensions for each song.
 
 ## Evaluation
+
 Each track will use correlation-based metrics as follows:
 - **Linear Correlation Coefficient**
 - **Spearman’s rank correlation coefficient**
 - **Kendall's Rank Correlation Coefficient**
 - **Top-Tier Accuracy**
 
-We will mesure both system-level and utterance-level.
+We will measure both system-level and utterance-level.
 
 ### Top-Tier Accuracy Calculation Rules & Thresholds
 
@@ -149,7 +173,7 @@ This baseline serves as a reproducible and extensible starting point, helping pa
 | 4    | HyperCritic     | 0.518 |
 | **5**    | **Baseline**    | **0.510** |
 | 6    | yyyf            | 0.507 |
-| 6    | LoveAlmusic     | 0.507 |
+| 6    | LoveAImusic     | 0.507 |
 | 8    | LeVo            | 0.503 |
 | 9    | Ah3Dui          | 0.497 |
 | 9    | Niuguangshuo    | 0.497 |
@@ -176,7 +200,7 @@ This baseline serves as a reproducible and extensible starting point, helping pa
 | 5    | BAL-RAE         | 0.589 |
 | **6**    | **Baseline**    | **0.574** |
 | 7    | yyyf            | 0.573 |
-| 8    | LoveAlmusic     | 0.568 |
+| 8    | LoveAImusic     | 0.568 |
 | 9    | MAIL            | 0.567 |
 | 10   | Niuguangshuo    | 0.563 |
 | 11   | Ah3Dui          | 0.553 |
@@ -186,3 +210,79 @@ This baseline serves as a reproducible and extensible starting point, helping pa
 | 15   | nk_hlt_group    | 0.499 |
 | 16   | Hachimi         | 0.493 |
 | 17   | nbu             | 0.484 |
+
+
+**Note**: 🏆 indicates teams invited to submit ICASSP 2-page papers.
+
+## Detailed Analysis
+
+
+### **Track 1 Scoring Methodology**
+
+The final score for Track 1 is derived from two test sets (Set1 and Set2). Each set is evaluated at both the Utterance (UTT) and System (SYS) levels.
+
+- **Metric Calculation per Set**
+
+For each dataset (Set 1 and Set 2), we first calculate the composite metrics for each team. Since the TTA metric exists only at the UTT level, it is used directly. For the other metrics (LCC, SRCC, KATU), we average the scores from the SYS and UTT levels:
+
+<div>
+$$\begin{aligned} \text{LCC}_{avg} &= \frac{\text{LCC}_{sys} + \text{LCC}_{utt}}{2} \\ \text{SRCC}_{avg} &= \frac{\text{SRCC}_{sys} + \text{SRCC}_{utt}}{2} \\ \text{KATU}_{avg} &= \frac{\text{KATU}_{sys} + \text{KATU}_{utt}}{2} \end{aligned}$$
+</div>
+
+- **Score Calculation per Set**
+
+The score for a specific set is the average of these four metrics:
+
+<div>
+$$Score_{set} = \frac{\text{LCC}_{avg} + \text{SRCC}_{avg} + \text{KATU}_{avg} + \text{TTA}_{utt}}{4}$$
+</div>
+
+- **Final Track 1 Score**
+
+The final score for Track 1 is a weighted average of the scores from Set 1(Easy) and Set 2(Hard), with a ratio of 2:8:
+
+$$\text{Final Score (Track 1)} = 0.2 \times Score_{set1} + 0.8 \times Score_{set2}$$
+
+<div style="text-align: center;">
+    <img src="./images/track1_performance.svg" style="width: 1200px; max-width: 100%; height: auto; clip-path: inset(0 10% 0 0);">
+</div>
+
+
+
+### **Track 2 Scoring Methodology**
+
+Track 2 evaluation involves five dimensions: Coherence, Naturalness, Memorability, Clarity, and Musicality. The calculation proceeds in three steps:
+
+- **Average Calculation per Metric across Dimensions**
+
+For each dimension (Coherence, Naturalness, Memorability, Clarity, Musicality), we first calculate the average of LCC, SRCC, and KATU at both UTT and SYS levels:
+
+<div>
+$$\text{LCC}_{avg\_dim} = \frac{\text{LCC}_{sys\_dim} + \text{LCC}_{utt\_dim}}{2}$$
+$$\text{SRCC}_{avg\_dim} = \frac{\text{SRCC}_{sys\_dim} + \text{SRCC}_{utt\_dim}}{2}$$
+$$\text{KATU}_{avg\_dim} = \frac{\text{KATU}_{sys\_dim} + \text{KATU}_{utt\_dim}}{2}$$
+</div>
+
+TTA is used directly from the UTT level, as it is only available there.
+
+- **Calculate Final Score for Each Dimension**
+
+For each dimension, we then calculate the average of LCC, SRCC, KATU, and TTA:
+
+<div>
+$$\text{Final Score}_{dim} = \frac{\text{LCC}_{avg\_dim} + \text{SRCC}_{avg\_dim} + \text{KATU}_{avg\_dim} + \text{TTA}_{utt\_dim}}{4}$$
+</div>
+
+- **Overall Track 2 Final Score**
+
+Finally, we calculate the overall Track 2 score by averaging the final scores of all five dimensions:
+
+$$\text{Final Score (Track 2)} = \frac{\sum_{d=1}^{5} \text{Final Score}_{dim}}{5}$$
+
+
+
+<div style="text-align: center; max-width: 1600px; margin: 0 auto;">
+    <img src="./images/track2_performance.svg" style="width: 110%; height: auto; clip-path: inset(0 15% 0 7%);">
+</div>
+
+**Note**: The LCC, SRCC, and KATU scores shown in the above figures are averaged from both utterance-level (UTT) and system-level (SYS) evaluations. For more detailed results, please refer to the [results folder](https://github.com/ASLP-lab/Automatic-Song-Aesthetics-Evaluation-Challenge/blob/main/static/results/).
